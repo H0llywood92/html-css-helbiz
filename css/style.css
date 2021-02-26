@@ -244,3 +244,17 @@ header .nav-top .menu ul .lang:last-child {
 .social .social-name {
     font-weight: 700;
 }
+
+/* Media Query */
+
+@media all and ( max-width: 767px ) {
+    .products .inner-col .content-col {
+        margin: 30px 40px;
+    }
+
+    .banner-bottom .banner-bot-left,
+    .banner-bottom .banner-bot-right {
+        margin: 20px 0;
+    }
+    
+}
