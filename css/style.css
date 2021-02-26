@@ -49,6 +49,10 @@ header .nav-top .menu ul .lang:last-child {
     padding-right: 0;
 }
 
+.burger-menu {
+    color: black;
+}
+
 /* Jumbotron */
 .jumbotron {
     height: 500px;
@@ -64,10 +68,11 @@ header .nav-top .menu ul .lang:last-child {
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
+    width: 50%;
 }
 
 .jumbotron-content h1 {
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .jumbotron-content p {
@@ -79,3 +84,128 @@ header .nav-top .menu ul .lang:last-child {
 }
 
 /* Main */
+/* Products Section */
+.products {
+    padding-top: 40px;
+}
+
+.products .inner-col {
+    padding: 0 20px;
+}
+
+.products .inner-col .content-col {
+    text-align: center;
+    background-color: #fafafa;
+    padding: 20px 0;
+}
+
+.products .inner-col .content-col a {
+    text-decoration: none;
+    color: blue;
+    padding-top: 15px;
+    display: inline-block;
+}
+
+.products .inner-col .content-col h2,
+.products .inner-col .content-col p,
+.products .inner-col .content-col img {
+    padding-top: 15px;
+}
+
+/* Info Section */
+.banner-info {
+    margin-top: 40px;
+    height: 285px;
+    background-image: url("../img/HelbizBanner.jpg");
+    background-size: cover;   
+}
+
+.banner-info img {
+    margin: auto;
+    top: 60px;
+    display: block;
+    position: relative;
+    height: 550px;
+    padding-left: 10px;
+}
+
+.info .inner-col {
+    padding-left: 50px;
+    padding-top: 100px;
+    width: 50%;
+    margin: auto;
+}
+
+.info .inner-col .content-col p {
+    font-size: 12px;
+}
+
+/* Benefit Section */
+.banner-top {
+    margin-top: 200px;
+    height: 500px;
+    background-image: url("../img/ScooterHelbiz-2400.jpg");
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+
+.banner-top .text-banner {
+    position: absolute;
+    top: 25%;
+    right: 4%;
+    width: 25%;
+    text-align: center;
+}
+
+.text-banner a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+ .text-banner p,
+ .text-banner a {
+    font-size: 12px;  
+}
+
+.banner-top .text-banner h2 {
+    font-size: 30px;
+}
+
+.text-banner h2,
+.text-banner h3,
+.text-banner p,
+ .text-banner a {
+     padding-top: 20px;
+ }
+
+/* Banner Bottom */
+.banner-bottom {
+    margin: 20px 0;
+    color: white;
+    text-align: center;
+}
+
+.banner-bot-left {
+    padding-right: 20px;
+}
+
+.banner-content {
+    height: 400px;
+}
+
+.banner-bot-left .banner-content {
+    background: linear-gradient(#41566a,#252f38) 50% no-repeat;
+}
+
+.banner-bottom .banner-content img {
+    display: block;
+    margin: auto;
+    height: 280px;
+}
+
+.banner-bot-right .banner-content {
+    background-image: url("../img/iStock-Roma.jpg");
+    background-size: cover;
+}
